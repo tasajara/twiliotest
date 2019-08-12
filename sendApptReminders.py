@@ -1,6 +1,6 @@
 import json
 from twilio.rest import Client
-# replace <phone> with appropriate phone number for testing
+# replace <to_number> with appropriate phone number for testing
 # replace <account_sid> and <auth_token> with appropriate values
 # replace <from_number> with appropriate value
 
