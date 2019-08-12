@@ -21,8 +21,6 @@ def sms_reply():
 
     # TwiML response
     resp = MessagingResponse()
-    #msg_reply = "Message received: "+message_body
-
     resp.message(msg_reply)
 
     return str(resp)

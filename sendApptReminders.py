@@ -35,9 +35,6 @@ from_number = '<from_number>'
 client = Client(account_sid, auth_token)
 
 for a in appts:
-    print("From number:",from_number)
-    print("Body:",appts[a]["dt"])
-    print("To:",appts[a]["phone"])
 
     message = client.messages.create(
         from_= from_number,
